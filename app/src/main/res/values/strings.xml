@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Ajuda me</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">PRÓXIMO</string>
+    <string name="skip">PULAR</string>
+    <string name="start">OK</string>
+
+    <string name="slide_1_title">Fácil acesso!</string>
+    <string name="slide_1_desc">Acesse facilmente pelo smartphone ou pelo computador!</string>
+
+    <string name="slide_2_title">Proximo a você!</string>
+    <string name="slide_2_desc">Encontre as ONGs mais próximas de você!</string>
+
+    <string name="slide_3_title">Ajude o planeta!</string>
+    <string name="slide_3_desc">Ajude a tornar o mundo ao seu redor um pouquinho melhor!</string>
+
 </resources>
