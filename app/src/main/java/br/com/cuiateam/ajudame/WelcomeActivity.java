@@ -116,8 +116,7 @@ public class WelcomeActivity extends AppCompatActivity {
     }
 
     private void launchHomeScreen() {
-        //TODO uncomment line below to stop viewing welcome screen every time
-//        prefManager.setFirstTimeLaunch(false);
+        prefManager.setFirstTimeLaunch(false);
         startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
         finish();
     }
