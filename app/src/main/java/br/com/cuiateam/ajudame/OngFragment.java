@@ -114,7 +114,7 @@ public class OngFragment extends Fragment {
         void onListFragmentInteraction(OngItem item);
     }
 
-    private class RetrieveFeedTask extends AsyncTask<Void, Void, String> {
+    public static class RetrieveFeedTask extends AsyncTask<Void, Void, String> {
 
         protected void onPreExecute() {
             ITEMS.clear();
@@ -145,7 +145,7 @@ public class OngFragment extends Fragment {
 
         protected void onPostExecute(String response) {
             if (response == null) {
-                Toast.makeText(getActivity(), getResources().getString(R.string.connection_error), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getActivity(), getResources().getString(R.string.connection_error), Toast.LENGTH_SHORT).show();
             }else{
                 Gson gson = new Gson();
                 OngItem[] ongItems = gson.fromJson(response, OngItem[].class);
