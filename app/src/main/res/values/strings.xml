@@ -15,4 +15,8 @@
     <string name="slide_3_title">Ajude o planeta!</string>
     <string name="slide_3_desc">Ajude a tornar o mundo ao seu redor um pouquinho melhor!</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="connection_error">Erro ao conectar ao servidor!</string>
+
 </resources>
